@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WoocommerceCartRecoveryTools;
 if (! defined('ABSPATH')) { exit; }
-final class WoocommerceCartRecoveryToolsFeature {
+final class Feature {
     private const OPTION = 'woocommerce_cart_recovery_tools_enabled';
     private const SLUG = 'woocommerce-cart-recovery-tools';
     private const TITLE = 'WooCommerce Cart Recovery Tools';
